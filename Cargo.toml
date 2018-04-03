@@ -1,0 +1,13 @@
+[package]
+name = "fut-xi"
+version = "0.1.0"
+authors = ["Colin Rofls <colin@cmyr.net>"]
+
+[dependencies]
+bytes = "0.4.5"
+futures = "0.2.0-beta"
+tokio = { version = "0.1.5", features = ["unstable-futures"]}
+tokio-io = "0.1.6"
+mio = "0.6"
+memchr = "*"
+libc = "*"
